@@ -29,7 +29,7 @@ SKILL.md §10/§11/§14/§15 保留触发条件与核心动作，展开细则在
 
 ## §15 版本更新检查（执行细则）
 
-- **更新源**（钉死，不跟随任何跳转、不用镜像）：`https://raw.githubusercontent.com/we284/model-booster-skill/main/astra/SKILL.md`——若地址仍含"你的用户名"占位符，说明未配置更新源，静默跳过，不发起任何请求。
+- **更新源**（钉死，不跟随任何跳转、不用镜像）：`https://raw.githubusercontent.com/we284/model-booster-astra-skill/main/SKILL.md`——若地址仍含"你的用户名"占位符，说明未配置更新源，静默跳过，不发起任何请求。
 - **用户明确说"更新"才执行**，流程：
   1. 备份当前 skill 目录为 `model-booster-astra-skill.bak/`；
   2. 从同一固定 URL 下载新版文件，核对下载文件标题下方的版本行与刚告知用户的一致；
